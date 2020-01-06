@@ -1,0 +1,32 @@
+package com.example.kalingaproject.exceptions;
+
+public class ProjectCostMore extends ServiceException {
+
+	public ProjectCostMore() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+	public ProjectCostMore(String arg0, Throwable arg1, boolean arg2, boolean arg3) {
+		super(arg0, arg1, arg2, arg3);
+		// TODO Auto-generated constructor stub
+	}
+
+	public ProjectCostMore(String arg0, Throwable arg1) {
+		super(arg0, arg1);
+		// TODO Auto-generated constructor stub
+	}
+
+	public ProjectCostMore(String arg0) {
+		super(arg0);
+		// TODO Auto-generated constructor stub
+	}
+
+	public ProjectCostMore(Throwable arg0) {
+		super(arg0);
+		// TODO Auto-generated constructor stub
+	}
+	
+	
+
+}
